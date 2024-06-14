@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "bootstrap-icons/font/bootstrap-icons.css"
+import { Header } from "@/components/layout/header";
+import { roboto_Mono } from "@/ui/typography";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={roboto_Mono.variable}>
+      <Header/>
+        {children}
+        </body>
     </html>
   );
 }
