@@ -1,3 +1,4 @@
+"use client"
 import {usePathname, useSearchParams} from 'next/navigation'
 import React, { useEffect } from "react"
 import * as gtag from "./gtag"
