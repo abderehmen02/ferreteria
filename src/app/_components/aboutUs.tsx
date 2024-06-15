@@ -20,9 +20,9 @@ Icon : <i className="bi text-8xl  text-black bi-bag-fill"></i>
 
 export const AboutUs = ()=>{
     return <div className="flex  flex-col  " >
-<div className="bg-primary px-8 gap-7 flex items-center justify-around  py-2" >
+<div className="bg-primary px-8 gap-7 flex items-center flex-col lg:flex-row justify-around py-6 lg:py-2" >
 <img src={appConfig.logo} />
-<h2 className="H2 inline-block text-white " > Descubre Nuestra Historia: El Viaje de FERRETERÍA Y BAZAR HOGAR</h2>
+<h2 className="H2 inline-block text-center lg:text-start text-white " > Descubre Nuestra Historia: El Viaje de FERRETERÍA Y BAZAR HOGAR</h2>
 </div>
 <div className="flex flex-col items-center justify-center gap-8 py-28 px-3" >
     <div className="flex flex-col items-center justify-center gap-8 py-6 px-3" >

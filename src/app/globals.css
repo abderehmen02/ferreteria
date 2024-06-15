@@ -71,14 +71,14 @@
       @apply text-3xl lg:text-6xl   font-bold font-robotoMono lg:tracking-[-1.34px] 
   }
    .H2 {
-    @apply font-bold leading-[58px] font-robotoMono  text-3xl lg:text-5xl
+    @apply font-bold  font-robotoMono  text-3xl lg:text-5xl
     
   }
    .H3 {
     @apply font-bold lg:text-3xl text-lg leading-[26px]  lg:leading-[38px] font-robotoMono 
   }
    .H4 {
-    @apply leading-7 text-xl font-bold font-robotoMono 
+    @apply  text-lg lg:text-xl font-bold font-robotoMono 
   }
   
 

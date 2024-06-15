@@ -40,7 +40,13 @@ export const categories : CategoryInfo[] = [{
 export const CategoriesSection = ()=>{
  
     
-    return <div className="flex max-w-[1400px] flex-col items-center  justify-center py-36" >
+    return <div>
+
+<div className="flex lg:hidden py-10 flex-col gap-3 flex-wrap " >
+{categories.map(category=><CategoryCard {...category} />)}
+</div>
+
+<div className="lg:flex  hidden  max-w-[1400px] flex-col items-center  justify-center py-36" >
     { categories?.length && <div className="w-full flex gap-6">
     <div className="flex w-3/12 gap-10 flex-col" >
     <CategoryCard {...categories[0]} />
@@ -66,5 +72,8 @@ export const CategoriesSection = ()=>{
     </div>
 
     </div>     }
+    </div>
+
+
     </div>
 }
