@@ -5,6 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css"
 import { Header } from "@/components/layout/header";
 import { roboto_Mono } from "@/ui/typography";
 import { GAScripts } from "@/config/analytics";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-            <GAScripts/>
+    <Suspense>      <GAScripts/></Suspense>
 
       <body className={roboto_Mono.variable}>
       <Header/>

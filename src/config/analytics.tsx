@@ -1,29 +1,40 @@
 "use client"
-import Script from "next/script"
 import {usePathname, useSearchParams} from 'next/navigation'
-import { useEffect } from "react"
+import React, { useEffect } from "react"
 import * as gtag from "./gtag"
+import Script from "next/script"
 
-export const   GAScripts  =  ()=>{
+
+export const   GAScripts : React.FC=  ()=>{
+  const pathname = usePathname()
+  const searchParams = useSearchParams()  
+
   useEffect(() => {
     const handleRouteChange =  ( url :string  ) => {
       gtag.pageview(url)
     }
 
+    
+    const url = pathname && searchParams && pathname + searchParams?.toString()
+    url &&    handleRouteChange(url)
 
-      }, [])
+
+      }, [pathname, searchParams])
+
 
   return (
     <>
-      <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-      />
-      <Script
-        id="gtag-init"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
+    {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-NS91G8L4LL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NS91G8L4LL');
+</script> */}
+
+      <Script        strategy="afterInteractive"        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}      />
+      <Script        id="gtag-init"                strategy="afterInteractive"        dangerouslySetInnerHTML={{__html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
