@@ -20,8 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+            <GAScripts/>
+
       <body className={roboto_Mono.variable}>
-      <GAScripts/>
       <Header/>
         {children}
         </body>
