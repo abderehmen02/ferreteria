@@ -22,7 +22,7 @@ export default function RootLayout({
   console.log("lading...")
   return (
     <html lang="en">
-         <GAScripts />
+       <Suspense>  <GAScripts /></Suspense>
       <body className={roboto_Mono.variable}>
       <Header/>
         {children}
