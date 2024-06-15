@@ -43,7 +43,7 @@ export const CategoriesSection = ()=>{
     return <div>
 
 <div className="flex lg:hidden py-10 flex-col gap-3 flex-wrap " >
-{categories.map(category=><CategoryCard {...category} />)}
+{categories.map(category=><CategoryCard key={category.title} {...category} />)}
 </div>
 
 <div className="lg:flex  hidden  max-w-[1400px] flex-col items-center  justify-center py-36" >
