@@ -6,8 +6,7 @@ import { usePathname } from "next/navigation"
 
 export const Header = ()=>{
     const path = usePathname()
-    console.log("path" , path == "/")
-    return <div className="w-full flex flex-col" >
+    return <div className="w-full flex flex-col " >
 <div className="flex w-full  justify-end pt-4 px-12" >
         <div className="flex gap-2 px-4 border-2 w-[300px] h-[40px] p-1 border-primaryDark rounded-xl " >
         <input className="w-full flex focus:border-0 focus:outline-none " placeholder="Search..." />
