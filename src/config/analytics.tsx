@@ -5,19 +5,13 @@ import { useEffect } from "react"
 import * as gtag from "./gtag"
 
 export const   GAScripts  =  ()=>{
-  const pathname = usePathname()
-  const searchParams = useSearchParams()  
   useEffect(() => {
     const handleRouteChange =  ( url :string  ) => {
       gtag.pageview(url)
     }
 
-    
-    const url = pathname && searchParams && pathname + searchParams?.toString()
-    url &&    handleRouteChange(url)
 
-
-      }, [pathname, searchParams])
+      }, [])
 
   return (
     <>
