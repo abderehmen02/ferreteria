@@ -1,4 +1,4 @@
-export const GA_TRACKING_ID : string = "G-G29HHFRFLQ" 
+export const GA_TRACKING_ID : string = "G-PEDPJLTJL0" 
 
 
 

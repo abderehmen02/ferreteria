@@ -6,7 +6,7 @@ import { Header } from "@/components/layout/header";
 import { roboto_Mono } from "@/ui/typography";
 import { GAScripts } from "@/config/analytics";
 import { Suspense } from "react";
-
+import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,10 +19,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log("lading...")
   return (
     <html lang="en">
-    <Suspense>      <GAScripts/></Suspense>
-
+         <GAScripts />
       <body className={roboto_Mono.variable}>
       <Header/>
         {children}

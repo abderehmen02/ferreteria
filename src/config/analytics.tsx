@@ -1,4 +1,3 @@
-"use client"
 import {usePathname, useSearchParams} from 'next/navigation'
 import React, { useEffect } from "react"
 import * as gtag from "./gtag"
@@ -8,7 +7,6 @@ import Script from "next/script"
 export const   GAScripts : React.FC=  ()=>{
   const pathname = usePathname()
   const searchParams = useSearchParams()  
-
   useEffect(() => {
     const handleRouteChange =  ( url :string  ) => {
       gtag.pageview(url)
@@ -24,26 +22,18 @@ export const   GAScripts : React.FC=  ()=>{
 
   return (
     <>
-    {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-NS91G8L4LL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NS91G8L4LL');
-</script> */}
-
       <Script        strategy="afterInteractive"        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}      />
-      <Script        id="gtag-init"                strategy="afterInteractive"        dangerouslySetInnerHTML={{__html: `
+      <Script        id="gtag-init"                strategy="afterInteractive"        >
+      {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', '${gtag.GA_TRACKING_ID}', {
               page_path: window.location.pathname,
             });
-          `,
-        }}
-      />
+          `
+        }
+      </Script>
     </>
   )
 }
