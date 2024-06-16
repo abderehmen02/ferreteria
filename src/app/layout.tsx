@@ -7,6 +7,9 @@ import { roboto_Mono } from "@/ui/typography";
 import { GAScripts } from "@/config/analytics";
 import { Suspense } from "react";
 import GoogleAnalytics from "@bradgarropy/next-google-analytics";
+import Script from "next/script";
+import * as gtag from "../config/gtag"
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -22,7 +25,18 @@ export default function RootLayout({
   console.log("lading...")
   return (
     <html lang="en">
-       <Suspense>  <GAScripts /></Suspense>
+      <head>
+      {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PEDPJLTJL0"></Script>
+<Script id="google analytics" >
+{`  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PEDPJLTJL0');`}
+</Script>       */}
+
+ <Suspense>  <GAScripts /></Suspense>
+</head>
       <body className={roboto_Mono.variable}>
       <Header/>
         {children}
