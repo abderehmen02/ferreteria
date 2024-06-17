@@ -36,7 +36,7 @@ const closeMobileNav = ()=>{
 <div className="w-full relative lg:hidden max-w-full " >    <motion.div animate={animateMobileNav} initial={{x: -500}}  className="flex bg-white px-2 py-6 w-[100vw] absolute z-50 gap-4 flex-col " >
 <div onClick={closeMobileNav} className="w-full flex items-center justify-end" ><i className="bi text-2xl font-bold  text-red-400 bi-x-lg"></i></div>
 <Link className={cn("H4 text-start  capitalize w-fit  hover:border-b-4 hover:border-b-primaryDark hover:text-primaryDark hover:opacity-80 pb-2" , { "border-b-4 border-b-primaryDark text-primary pb-2" : path == "/"} )} href={appConfig.routes.home} >home</Link>
-<Link className={cn("H4 text-start  capitalize w-fit  hover:border-b-4 hover:border-b-primaryDark hover:text-primaryDark hover:opacity-80 pb-2" , { "border-b-4 border-b-primaryDark text-primary pb-2" : path.includes(appConfig.routes.rebajas) } )} href={appConfig.routes.rebajas} >rebajas</Link>
+<Link className={cn("H4 text-start  capitalize w-fit  hover:border-b-4 hover:border-b-primaryDark hover:text-primaryDark hover:opacity-80 pb-2" , { "border-b-4 border-b-primaryDark text-primary pb-2" : path.includes(appConfig.routes.productos) } )} href={appConfig.routes.productos} >rebajas</Link>
 <Link className={cn("H4 text-start  capitalize w-fit  hover:border-b-4 hover:border-b-primaryDark hover:text-primaryDark hover:opacity-80 pb-2" , { "border-b-4 border-b-primaryDark text-primary pb-2" : path.includes(appConfig.routes.DiseñoDeInteriores) } )} href={appConfig.routes.DiseñoDeInteriores} >Diseño De Interiores</Link>
 <Link className={cn("H4 text-start  capitalize w-fit  hover:border-b-4 hover:border-b-primaryDark hover:text-primaryDark hover:opacity-80 pb-2" , { "border-b-4 border-b-primaryDark text-primary pb-2" : path.includes(appConfig.routes.ProductosPersonalizados) } )} href={appConfig.routes.ProductosPersonalizados} >Productos Personalizados</Link>
     </motion.div></div>
@@ -53,7 +53,7 @@ const closeMobileNav = ()=>{
 </div>
 <div className="flex px-2 lg:px-12 gap-3 " >
 <Link className={cn("H4 capitalize px-4 hover:border-b-4 hover:border-b-primaryDark hover:text-primaryDark hover:opacity-80 pb-2" , { "border-b-4 border-b-primaryDark text-primary pb-2" : path == "/"} )} href={appConfig.routes.home} >home</Link>
-<Link className={cn("H4 capitalize px-4 hover:border-b-4 hover:border-b-primaryDark hover:text-primaryDark hover:opacity-80 pb-2" , { "border-b-4 border-b-primaryDark text-primary pb-2" : path.includes(appConfig.routes.rebajas) } )} href={appConfig.routes.rebajas} >rebajas</Link>
+<Link className={cn("H4 capitalize px-4 hover:border-b-4 hover:border-b-primaryDark hover:text-primaryDark hover:opacity-80 pb-2" , { "border-b-4 border-b-primaryDark text-primary pb-2" : path.includes(appConfig.routes.productos) } )} href={appConfig.routes.productos} >rebajas</Link>
 <Link className={cn("H4 capitalize px-4 hover:border-b-4 hover:border-b-primaryDark hover:text-primaryDark hover:opacity-80 pb-2" , { "border-b-4 border-b-primaryDark text-primary pb-2" : path.includes(appConfig.routes.DiseñoDeInteriores) } )} href={appConfig.routes.DiseñoDeInteriores} >Diseño De Interiores</Link>
 <Link className={cn("H4 capitalize px-4 hover:border-b-4 hover:border-b-primaryDark hover:text-primaryDark hover:opacity-80 pb-2" , { "border-b-4 border-b-primaryDark text-primary pb-2" : path.includes(appConfig.routes.ProductosPersonalizados) } )} href={appConfig.routes.ProductosPersonalizados} >Productos Personalizados</Link>
 

@@ -19,15 +19,19 @@ muted={true} ></video>
         <h4 className="text-[22px] sm:text-3xl max-w-[600px] text-center">
         Encuentra todo para días soleados y llenos de diversión en nuestra tienda.
         </h4>
+
         <div className="flex gap-4  sm:gap-11">
       
           <Link href={appConfig.routes.DiseñoDeInteriores} className="secondaryBtn">
           Diseño De Interiores
           </Link>
-          <Link href={appConfig.routes.rebajas} className="secondaryBtn">
-            Rebajas
+          <Link href={appConfig.routes.productos} className="secondaryBtn">
+            productos
           </Link>
         </div>
+        <ul>
+          <li className="H4" >número de teléfono :  +34688595269</li>
+        </ul>
       </div>
     </div>
     

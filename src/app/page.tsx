@@ -2,6 +2,7 @@ import Image from "next/image";
 import { AppHero } from "./_components/hero";
 import { CategoriesSection } from "./_components/categories";
 import { AboutUs } from "./_components/aboutUs";
+import { Location } from "./_components/location";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
     <AppHero/>
     <CategoriesSection/>
     <AboutUs/>
+    <Location/>
     </main>
   );
 }

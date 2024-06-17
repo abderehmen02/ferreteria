@@ -4,7 +4,7 @@ export const appConfig = {
     notFoundImg : "/notFoundImg.jpg"  ,
     routes :{
         home : "/" ,
-        rebajas : "/Rebajas" , 
+        productos : "/productos" , 
         LosMásVendidos : "/LosMásVendidos" , 
         DiseñoDeInteriores : "/DiseñoDeInteriores" , 
         ProductosPersonalizados : "/ProductosPersonalizados"
