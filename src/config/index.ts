@@ -8,6 +8,9 @@ export const appConfig = {
         LosMásVendidos : "/LosMásVendidos" , 
         DiseñoDeInteriores : "/DiseñoDeInteriores" , 
         ProductosPersonalizados : "/ProductosPersonalizados"
+    } ,
+    products :{
+        productQueryName : "productQueryName"
     }
 }
 
