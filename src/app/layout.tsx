@@ -12,17 +12,13 @@ import * as gtag from "../config/gtag"
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata : Metadata = {
-  title : 'Ferreteria y bazar hogar' ,
-  description : 'A website to explore our unique prodocts' ,
-  openGraph  : {
-    title : "'stealthGram – Instagram Story Viewer and Downloader'" , 
-    description : 'Anonymous Instagram Story Viewer. View and Download IG stories, reels, posts, highlights and full size dp for any public profile!' ,
-    url : "/logo.jpg" ,
-    images : "/logo.jpg" 
-  }
-}
 
+
+
+export const metadata: Metadata = {
+  title: "Ferreteria y bazar hogar",
+  description: "A website to explore our unique prodocts",
+};
 
 
 
