@@ -9,6 +9,7 @@ import { Suspense } from "react";
 import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 import Script from "next/script";
 import * as gtag from "../config/gtag"
+import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,7 +44,7 @@ export default function RootLayout({
 
  <Suspense>  <GAScripts /></Suspense>
 </head>
-      <body className={roboto_Mono.variable}>
+      <body  className={cn(roboto_Mono.variable , "flex items-center flex-col " )}>
       <Header/>
         {children}
         </body>

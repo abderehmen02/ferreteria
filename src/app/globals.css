@@ -108,11 +108,12 @@
 
 .smallCardVideo {
   max-width: 230px;
+  border-radius: 8px;
   border: 2px groove black;
 }
 
 .largeCardVideo {
   width: 100%;
   border: 2px groove black;
-
+  border-radius: 8px;
 }
