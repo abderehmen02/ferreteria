@@ -6,7 +6,7 @@ export const appConfig = {
         home : "/" ,
         productos : "/productos" , 
         LosMásVendidos : "/LosMásVendidos" , 
-        DiseñoDeInteriores : "/DiseñoDeInteriores" , 
+        recomendaciones : "/recomendaciones" , 
         ProductosPersonalizados : "/ProductosPersonalizados"
     } ,
     products :{

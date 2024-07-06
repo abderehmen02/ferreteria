@@ -22,7 +22,7 @@ muted={true} ></video>
 
         <div className="flex gap-4  sm:gap-11">
       
-          <Link href={appConfig.routes.DiseñoDeInteriores} className="secondaryBtn">
+          <Link href={appConfig.routes.recomendaciones} className="secondaryBtn">
           Diseño De Interiores
           </Link>
           <Link href={appConfig.routes.productos} className="secondaryBtn">
