@@ -12,7 +12,7 @@ import { MiddleSection } from './_components/middleSection'
 
 function RecomendationsPage() {
   return (
-    <div className='flex  max-w-[1800px] flex-col py-10 px-8 é gap-60 items-center ' >
+    <div className='flex max-w-full lg:max-w-[1800px] flex-col py-10 px-2 lg:px-8 gap-60 items-center ' >
         <HeaderVideos/>
         <MiddleSection/>
         <div className='flex   w-full max-w-[1200px] flex-col gap-20 ' >

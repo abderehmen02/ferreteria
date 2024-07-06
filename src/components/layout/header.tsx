@@ -26,7 +26,7 @@ const closeMobileNav = ()=>{
     })
 }
 
-    return <>
+    return <div className="w-full  " >
     <div className="flex py-2 lg:hidden items-center px-2 justify-between" ><i onClick={openMobileNav} className="bi text-4xl font-bold bi-list"></i>
     <div className="flex gap-2 px-4 border-2 w-[240px] h-[40px] p-1 border-primaryDark rounded-xl " >
         <input className="w-full flex focus:border-0 focus:outline-none " placeholder="Search..." />
@@ -59,7 +59,7 @@ const closeMobileNav = ()=>{
 
 </div>
 </div>
-    </div></>
+    </div></div>
 }
 
 

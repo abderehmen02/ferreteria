@@ -7,8 +7,8 @@ interface VideoCardProps {
 }
 
 export const VideoLeftCard : React.FC<VideoCardProps> = ({description , title , videoSrc})=>{
-    return <div className="flex w-full " > 
-    <div className="flex gap-4 max-w-[1000px] bg-gray-100 shadow-md p-4 rounded-lg" >
+    return <div className="flex w-full flex-col lg:flex-row " > 
+    <div className="flex gap-4 max-w-[1000px] flex-col lg:flex-row bg-gray-100 shadow-md p-4 rounded-lg" >
     <video controls={true} src={videoSrc} className="smallCardVideo" ></video>
     <div className="flex py-6 flex-col gap-2" >
     <h3 className="H3" >{title}</h3>
@@ -20,8 +20,8 @@ export const VideoLeftCard : React.FC<VideoCardProps> = ({description , title , 
 
 
 export const VideoRightCard : React.FC<VideoCardProps> = ({description , title , videoSrc})=>{
-    return <div className="w-full flex flex-row-reverse max-w-600px] " >
-    <div className="flex   gap-4 max-w-[1100px] bg-gray-100 shadow-md p-4 rounded-lg" >
+    return <div className="w-full flex  flex-row-reverse max-w-600px] " >
+    <div className="flex   gap-4 max-w-[1100px] flex-col lg:flex-row bg-gray-100 shadow-md p-4 rounded-lg" >
     <video controls={true} src={videoSrc} className="smallCardVideo" ></video>
 
     <div className="flex flex-col py-6 gap-2" >

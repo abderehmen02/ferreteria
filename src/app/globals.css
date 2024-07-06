@@ -117,3 +117,20 @@
   border: 2px groove black;
   border-radius: 8px;
 }
+
+
+@media screen and (max-width  :600px) {
+  
+.smallCardVideo {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 2px groove black;
+}
+
+.largeCardVideo {
+  width: 100%;
+  border: 2px groove black;
+  border-radius: 8px;
+}
+
+}
