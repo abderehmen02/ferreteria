@@ -1,4 +1,4 @@
-import { allPageVideos } from "../page"
+import { allPageVideos } from "@/config/recomentationsVideos"
 
 
 

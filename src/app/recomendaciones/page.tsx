@@ -2,13 +2,13 @@
 
 
 
-export const allPageVideos = ["/videos/video1.mp4", "/videos/video2.mp4", "/videos/video3.mp4", "/videos/video4.mp4", "/videos/video5.mp4", "/videos/video6.mp4"]
 
 
 import React from 'react'
 import { HeaderVideos } from './_components/headerVideos'
 import { VideoLeftCard, VideoRightCard } from './_components/cards'
 import { MiddleSection } from './_components/middleSection'
+import { allPageVideos } from '@/config/recomentationsVideos'
 
 function RecomendationsPage() {
   return (
