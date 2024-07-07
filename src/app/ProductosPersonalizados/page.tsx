@@ -1,12 +1,12 @@
 import React from 'react'
-import { HeaderPersonelizedProducts, PersonelizedProductInfo } from './_components/cards'
+import { HeaderPersonelizedProducts, PersonelizedProductInfo, ProductLargeRectangleCard } from './_components/cards'
 
 
 export const allPersonlizedProducts : PersonelizedProductInfo[] = [
     {
         "title": "Martillo de Garra",
         "desc": "Ideal para clavar y remover clavos, este martillo de garra de acero forjado es duradero y equilibrado. Su mango ergonómico de goma proporciona un agarre cómodo. Perfecto para proyectos de carpintería y reparaciones en el hogar. Resistente a impactos y de larga duración.",
-        image : "/hardwareProducts/prod1.jpeg"
+        image : "/hardwareProducts/prod1.jpg"
     },
     {
         "title": "Destornillador Multiuso",
@@ -130,6 +130,10 @@ function Page() {
   return (
     <div className='flex max-w-full lg:max-w-[1800px] flex-col py-10 px-2 lg:px-8 gap-60 items-center '  >
     <HeaderPersonelizedProducts/>
+    <div className='flex flex-col  gap-12'  >
+    {
+        allPersonlizedProducts.slice(4).map(product=><ProductLargeRectangleCard {...product} />)
+    }</div>
     </div>
   )
 }
