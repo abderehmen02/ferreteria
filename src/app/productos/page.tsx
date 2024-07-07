@@ -141,6 +141,84 @@ image : "/images/beachChairs.jpeg" ,
     name: "Pelota de Playa",
     description: "Lleva la diversión a la playa o la piscina con nuestra colorida pelota de playa, ideal para juegos en el agua.",
     image: "/images/Juguetes3.jpeg"
+} ,
+{
+    category: "Esenciales de Picnic",
+    name: "Manta de Picnic",
+    description: "Disfruta de tus comidas al aire libre con nuestra manta de picnic, resistente al agua y fácil de transportar, perfecta para cualquier terreno.",
+    image: "/images/EsencialesDePicnic1.jpeg"
+}, {
+    category: "Esenciales de Picnic",
+    name: "Cesta de Picnic",
+    description: "Organiza tu comida al aire libre con estilo con nuestra cesta de picnic, equipada con compartimentos para todos tus esenciales.",
+    image:"/images/EsencialesDePicnic2.jpeg"
+}, {
+    category: "Esenciales de Picnic",
+    name: "Juego de Vajilla de Picnic",
+    description: "Disfruta de una comida completa al aire libre con nuestro juego de vajilla de picnic, incluyendo platos, vasos y cubiertos reutilizables.",
+    image: "/images/EsencialesDePicnic3.jpeg"
+}, {
+    category: "Esenciales de Picnic",
+    name: "Enfriador Portátil",
+    description: "Mantén tus bebidas y alimentos frescos con nuestro enfriador portátil, ideal para mantener la temperatura perfecta durante tu picnic.",
+    image: "/images/EsencialesDePicnic4.jpeg"
+}, {
+    category: "Esenciales de Picnic",
+    name: "Sillas de Picnic",
+    description: "Relájate con comodidad en nuestras sillas de picnic, diseñadas para ser ligeras, plegables y fáciles de transportar.",
+    image:"/images/EsencialesDePicnic5.jpeg"
+} ,
+{
+    category: "Protección Solar",
+    name: "Crema Solar SPF 50",
+    description: "Protege tu piel de los dañinos rayos UV con nuestra crema solar SPF 50, resistente al agua y perfecta para todo tipo de piel.",
+    image: "/images/ProtecciónSolar1.jpeg"
+}, {
+    category: "Protección Solar",
+    name: "Gafas de Sol Polarizadas",
+    description: "Disfruta de una visión clara y protegida con nuestras gafas de sol polarizadas, que reducen el deslumbramiento y ofrecen protección UV completa.",
+    image: "/images/ProtecciónSolar2.jpeg"
+}, {
+    category: "Protección Solar",
+    name: "Sombrero de Ala Ancha",
+    description: "Mantén tu rostro y cuello protegidos del sol con nuestro elegante sombrero de ala ancha, ideal para cualquier actividad al aire libre.",
+    image: "/images/ProtecciónSolar3.jpeg"
+}, {
+    category: "Protección Solar",
+    name: "Camisa de Manga Larga UPF 50+",
+    description: "Protege tu piel del sol con nuestra camisa de manga larga UPF 50+, diseñada para ofrecer comodidad y transpirabilidad mientras bloquea los rayos UV.",
+    image: "/images/ProtecciónSolar4.jpeg"
+}, {
+    category: "Protección Solar",
+    name: "Parasol Portátil",
+    description: "Disfruta de sombra instantánea donde quiera que vayas con nuestro parasol portátil, fácil de instalar y transportar.",
+    image: "/images/ProtecciónSolar5.jpeg"
+} ,
+{
+    category: "Parrillas Portátiles",
+    name: "Parrilla de Carbón Portátil",
+    description: "Lleva tus habilidades de asado a cualquier lugar con nuestra parrilla de carbón portátil, fácil de montar y perfecta para picnics y campamentos.",
+    image: "/images/ParrillasPortátiles1.jpeg"
+}, {
+    category: "Parrillas Portátiles",
+    name: "Parrilla de Gas Portátil",
+    description: "Disfruta de la comodidad y eficiencia de nuestra parrilla de gas portátil, con encendido rápido y control de temperatura ajustable.",
+    image: "/images/ParrillasPortátiles2.jpeg"
+}, {
+    category: "Parrillas Portátiles",
+    name: "Parrilla Eléctrica Portátil",
+    description: "Cocina tus alimentos favoritos sin complicaciones con nuestra parrilla eléctrica portátil, ideal para balcones y áreas con restricciones de carbón o gas.",
+    image: "/images/ParrillasPortátiles3.jpeg"
+}, {
+    category: "Parrillas Portátiles",
+    name: "Parrilla Plegable de Acero Inoxidable",
+    description: "Aprovecha la versatilidad y durabilidad de nuestra parrilla plegable de acero inoxidable, fácil de transportar y almacenar.",
+    image: "/images/ParrillasPortátiles4.jpeg"
+}, {
+    category: "Parrillas Portátiles",
+    name: "Parrilla de Mesa Portátil",
+    description: "Perfecta para espacios pequeños, nuestra parrilla de mesa portátil ofrece una superficie de cocción compacta sin sacrificar rendimiento.",
+    image: "/images/ParrillasPortátiles5.jpeg"
 }
 ]
 
