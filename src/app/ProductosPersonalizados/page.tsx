@@ -132,7 +132,7 @@ function Page() {
     <HeaderPersonelizedProducts/>
     <div className='flex flex-col  gap-12'  >
     {
-        allPersonlizedProducts.slice(4).map(product=><ProductLargeRectangleCard {...product} />)
+        allPersonlizedProducts.slice(4).map(product=><ProductLargeRectangleCard key={product.title} {...product} />)
     }</div>
     </div>
   )
