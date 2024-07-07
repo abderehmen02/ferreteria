@@ -6,7 +6,7 @@ import { Location } from "./_components/location";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center ">
+    <main className="flex w-full flex-col items-center ">
     <AppHero/>
     <CategoriesSection/>
     <AboutUs/>
