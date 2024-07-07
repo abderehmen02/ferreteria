@@ -1,5 +1,5 @@
+import { allPersonlizedProducts } from "@/config/personelizedProducts"
 import React from "react"
-import { allPersonlizedProducts } from "../page"
 
 
 
