@@ -38,10 +38,10 @@ const ProductSmallRectangleCard : React.FC<PersonelizedProductInfo>  = ({desc , 
 
 export const ProductLargeRectangleCard : React.FC<PersonelizedProductInfo>  = ({desc , image , title})=>{
      
-    return <div className="flex rounded-xl items-center flex-col lg:flex-row bg-gray-100  gap-6 p-6" >
+    return <div className="flex rounded-xl  flex-col lg:flex-row bg-gray-100  gap-6 p-6" >
          <img alt={title} src={ image } sizes="389px" className="lg:min-w-[508px] w-fit   bg-white rounded-lg border-2 border-black p-4 h-[259px]" />
          <div className=" gap-6 flex flex-col" >
-        <div className="gap-4 flex flex-col" >
+        <div className="gap-4 flex lg:py-7  flex-col" >
          <h3 className="H3" >{title}</h3>
          <p   className="inline-block P"  >{desc}</p>
          </div>
