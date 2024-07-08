@@ -13,15 +13,15 @@ export const HeaderVideos = ()=>{
 <div className="flex gap-4 p-4 flex-col lg:flex-row lg:max-w-[1000px]" >
 <video controls={true} src={allPageVideos[0]} className="smallCardVideo" ></video>
 <div className="flex flex-col gap-2" >
-<h3 className="H3" >Lorem, ipsum dolor.</h3>
-<p className="P" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae unde eligendi aliquam deleniti sint et nulla fugiat ad. Pariatur, consequuntur iste blanditiis, dolor commodi ducimus harum autem dicta quo possimus nulla illum mollitia nostrum eius odit est quaerat neque eveniet ad architecto? Dolorum, molestias perspiciatis placeat minus vitae voluptatem! Sint a possimus impedit magni quibusdam earum eum delectus vel cumque! Voluptatibus id assumenda, dignissimos nihil magni ex voluptatem fuga nesciunt!</p>
+<h3 className="H3" > Delicias del Este Asiático</h3>
+<p className="P" >Adéntrate en nuestro bazar chino y disfruta de un mundo de delicias del Este Asiático. Descubre una decoración para el hogar exquisita, utensilios prácticos de cocina y regalos únicos que reflejan elegancia cultural. Disfruta de precios competitivos y un servicio al cliente atento en un ambiente acogedor. Desde accesorios de moda elegantes hasta necesidades cotidianas, nuestro bazar satisface todos los gustos y necesidades. Sumérgete en la rica herencia de diversas tradiciones y artesanías. Tu satisfacción es nuestra promesa. ¡Visítanos hoy y experimenta la esencia del Este Asiático!</p>
 </div>
 </div>  
 <div className="flex p-4 flex-col lg:flex-row gap-4 lg:max-w-[1000px]" >
 <video controls={true} src={allPageVideos[1]} className="smallCardVideo" ></video>
 <div className="flex flex-col gap-2" >
-<h3 className="H3" >Lorem, ipsum dolor.</h3>
-<p className="P" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo inventore laborum aperiam facere modi odio necessitatibus illum suscipit in facilis velit accusantium enim architecto obcaecati quos pariatur, nihil dicta aut nesciunt! Eaque tempore animi, error quibusdam vitae maxime eum voluptas ipsam vel repellat, beatae cupiditate provident illum eveniet ipsa recusandae dolor maiores eius earum aut perferendis praesentium natus deleniti? Quidem consequuntur cupiditate itaque cum autem doloremque ea, quam laudantium accusantium repellendus! Dolorum deleniti ad harum corporis cumque? Ducimus accusantium doloremque, perspiciatis accusamus consequuntur consectetur consequatur explicabo repudiandae sed cupiditate dolore.</p>
+<h3 className="H3" >Descubre Tesoros Únicos</h3>
+<p className="P" >Bienvenido a nuestro bazar chino, tu puerta de entrada a un mundo de productos únicos y de alta calidad. Explora nuestra elegante decoración para el hogar, innovadores utensilios de cocina y regalos perfectos para cada ocasión. Disfruta de precios incomparables y un servicio al cliente excepcional en un ambiente vibrante y amigable. Desde accesorios de moda hasta artículos esenciales diarios, tenemos algo para todos. Sumérgete en diversas culturas y artesanía exquisita. Tu satisfacción es nuestra máxima prioridad. ¡Visítanos hoy y descubre infinitas posibilidades!</p>
 </div>
 </div>    
 </div>
