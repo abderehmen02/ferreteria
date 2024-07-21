@@ -35,6 +35,15 @@ export const   GAScripts : React.FC=  ()=>{
           `
         }
       </Script>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16649270488">
+</Script>
+<Script>
+{` window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'AW-16649270488'); `}
+</Script>
     </>
   )
 }
