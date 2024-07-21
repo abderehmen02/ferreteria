@@ -19,6 +19,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Ferreteria y bazar hogar",
   description: "A website to explore our unique prodocts",
+  openGraph:{
+    images : ["/favicon.ico"]
+  }
 };
 
 
