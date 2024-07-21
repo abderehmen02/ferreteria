@@ -35,9 +35,9 @@ export const   GAScripts : React.FC=  ()=>{
           `
         }
       </Script>
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16649270488">
+      <Script id="google-ads-tracking" async src="https://www.googletagmanager.com/gtag/js?id=AW-16649270488">
 </Script>
-<Script>
+<Script id="google-ads-conversions-manager" >
 {` window.dataLayer = window.dataLayer || [];
  function gtag(){dataLayer.push(arguments);}
  gtag('js', new Date());
