@@ -32,20 +32,14 @@ export const   GAScripts : React.FC=  ()=>{
             gtag('config', '${gtag.GA_TRACKING_ID}', {
               page_path: window.location.pathname,
             });
+            gtag('config', 'AW-16649270488');
           `
         }
       </Script>
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16649270488"></Script>
-        <Script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-16649270488');
-            `,
-          }}
-        />    </>
+      <Script strategy='afterInteractive' >
+ { `gtag('event', 'conversion', {'send_to': 'AW-16649270488/t0-4CJ-3t8QZENjp_oI-'});`}
+</Script>
+    </>
   )
 }
 

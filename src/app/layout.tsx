@@ -49,7 +49,7 @@ export default function RootLayout({
  <Suspense>  <GAScripts /></Suspense>
 </head>
       <body  className={cn(roboto_Mono.variable , "flex items-center flex-col " )}>
-      <GoogleTagManager/>
+      {/* <GoogleTagManager/> */}
       <Header/>
         {children}
         </body>
