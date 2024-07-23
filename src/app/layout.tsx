@@ -4,7 +4,7 @@ import "./globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css"
 import { Header } from "@/components/layout/header";
 import { roboto_Mono } from "@/ui/typography";
-import { GAScripts } from "@/config/analytics";
+import { GAScripts, GoogleTagManager } from "@/config/analytics";
 import { Suspense } from "react";
 import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 import Script from "next/script";
@@ -48,6 +48,7 @@ export default function RootLayout({
  <Suspense>  <GAScripts /></Suspense>
 </head>
       <body  className={cn(roboto_Mono.variable , "flex items-center flex-col " )}>
+      <GoogleTagManager/>
       <Header/>
         {children}
         </body>
