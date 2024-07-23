@@ -36,7 +36,7 @@ export const   GAScripts : React.FC=  ()=>{
           `
         }
       </Script>
-      <Script strategy='afterInteractive' >
+      <Script id="google ads tracking manager" strategy='afterInteractive' >
  { `gtag('event', 'conversion', {'send_to': 'AW-16649270488/t0-4CJ-3t8QZENjp_oI-'});`}
 </Script>
     </>
