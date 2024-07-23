@@ -45,6 +45,7 @@ export default function RootLayout({
   gtag('config', 'G-PEDPJLTJL0');`}
 </Script>       */}
 
+
  <Suspense>  <GAScripts /></Suspense>
 </head>
       <body  className={cn(roboto_Mono.variable , "flex items-center flex-col " )}>
