@@ -30,7 +30,7 @@ muted={true} ></video>
           </Link>
         </div>
         <ul>
-          <li className="H4" >Número de teléfono :  +34688595269</li>
+          <li className="H4" >Número de teléfono :  <a href="tel:+34688595269" >+34688595269</a></li>
         </ul>
       </div>
     </div>
