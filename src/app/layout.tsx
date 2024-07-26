@@ -45,7 +45,7 @@ export default function RootLayout({
   gtag('config', 'G-PEDPJLTJL0');`}
 </Script>       */}
 
-
+<meta name="google-site-verification" content="jKNkJ0HCEaSXBnwuWewu5xVKJtlcH-t6FFOY_h-1D_I" />
  <Suspense>  <GAScripts /></Suspense>
 </head>
       <body  className={cn(roboto_Mono.variable , "flex items-center flex-col " )}>
