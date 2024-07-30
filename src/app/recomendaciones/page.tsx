@@ -9,6 +9,14 @@ import { HeaderVideos } from './_components/headerVideos'
 import { VideoLeftCard, VideoRightCard } from './_components/cards'
 import { MiddleSection } from './_components/middleSection'
 import { allPageVideos } from '@/config/recomentationsVideos'
+import { Metadata } from 'next'
+
+
+export const metadata : Metadata = {
+  title : "Recomendaciones Destacadas | Bazar Chino" ,
+  description : "Descubre nuestras recomendaciones destacadas en Ferretería y Bazar Hogar Bazar Chino. Productos seleccionados por su calidad, popularidad y excelente relación calidad-precio. ¡Encuentra lo mejor para tu hogar"
+}
+
 
 function RecomendationsPage() {
   return (

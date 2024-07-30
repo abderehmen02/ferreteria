@@ -17,10 +17,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export const metadata: Metadata = {
-  title: "Ferreteria y bazar hogar",
-  description: "A website to explore our unique prodocts",
+  title: {
+  default : "Ferreteria y bazar hogar Bazar Chino: Variety and Quality | Variedad y Calidad",
+  template : "%s Ferreteria y bazar hogar Bazar Chino"
+  } ,  
+  description: "Ferretería y Bazar Hogar Bazar Chino: Tu tienda de confianza para productos de ferretería y hogar. Calidad y variedad a precios competitivos. ¡Visítanos!",
   openGraph:{
-    images : ["/favicon.ico"]
+    images : ["/opengraph-img.jpeg"]
   }
 };
 

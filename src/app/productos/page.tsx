@@ -4,6 +4,7 @@ import { DisplayAnimation } from "@/animations/displayAnimation"
 import { ProductCategory, ProductsFilterCard } from "./_components/filterCard"
 import { ProductsSection } from "./_components/products"
 import { Suspense } from "react"
+import { Metadata } from "next"
 
 
 export interface Product {
@@ -12,6 +13,12 @@ export interface Product {
     image : string ,
     category : ProductCategory
 }
+
+export const metadata : Metadata = {
+    title : "Productos de Ferretería y Hogar | Bazar Chino" ,
+    description : "Explora la amplia selección de productos de Ferretería y Bazar Hogar Bazar Chino. Encuentra herramientas, artículos para el hogar y mucho más, todo con la mejor calidad y precios competitivos"
+}
+
 const products : Product[] = [{
     category : "Cables de Cargador" ,
     name: "Cable de Electricidad" ,
