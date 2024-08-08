@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils"
 
 export const ProductCard : React.FC<Product> = (productInfo)=>{
     return <div   className="flex w-full min-h-fit rounded-2xl lg:h-[385px] flex-col lg:w-[270px]   bg-white shadow-lg"  >
-<img src={productInfo.image} className="rounded-t-2xl" style={{width : '100%' , height : '200px'}} />
+<img src={productInfo.image} alt={appConfig.appName  + " " + productInfo.name} className="rounded-t-2xl" style={{width : '100%' , height : '200px'}} />
 <div className="flex flex-col py-5 gap-2 px-4 h-full justify-between"  >
 <Title descreptionClassName="text-start text-sm"  className="gap-1 w-full"  titleStyle={{fontSize : "24px"}} titleClassName=" text-start w-full leading-6  " title={productInfo.name} descreption={productInfo.description} />
 </div>
